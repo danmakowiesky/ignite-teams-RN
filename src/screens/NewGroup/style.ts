@@ -9,6 +9,7 @@ export const Container = styled.View`
 export const Content = styled.View`
   flex: 1;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Icon = styled(UsersThree).attrs(({ theme }) => ({
